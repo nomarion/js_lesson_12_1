@@ -26,6 +26,7 @@ function setInputUrl() {
 function redirect() {
     if(inputUrl !== null && inputUrl !== undefined) {
         window.location.href = inputUrl;
+        return;
     }
     alert('Укажите ссылку!');
 }
